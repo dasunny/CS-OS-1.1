@@ -5,7 +5,7 @@ public class Stats {
     static int minimum;
     static int maximum;
 
-    // thread that calculates the average of the numbers
+    // thread that calculates the average 
     static class AverageWorker implements Runnable {
         private int[] numbers;
 
